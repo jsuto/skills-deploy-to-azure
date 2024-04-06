@@ -9,6 +9,7 @@ env:
   DOCKER_IMAGE_NAME: jsuto-azure-ttt
   AZURE_WEBAPP_NAME: jsuto-ttt-app
 
+
 jobs:
   build:
     if: contains(github.event.pull_request.labels.*.name, 'stage')
